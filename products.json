@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "Air Jordan Serie 0.5",
+        "price": "250$",
+        "image": "1.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Air Jordan 1 Low Se ",
+        "price": "230$",
+        "image": "2.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Air Jordan Hi FlyEase",
+        "price": "300$",
+        "image": "3.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Air Jordan Retro High",
+        "price": "170$",
+        "image": "4.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Air Jordan 1 Mid",
+        "price": "110$",
+        "image": "5.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Jordan Elevate",
+        "price": "100$",
+        "image": "6.jpg"
+    }
+]
