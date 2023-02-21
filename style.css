@@ -51,7 +51,7 @@
     margin-bottom: 40px;
     background-color: #EBFFE4;
     border-radius: 10px;
-    box-shadow: 10px 20px 7px rgba(0, 0, 0, 0.212);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.212);
 }
 .product img{
     width: 100%;
@@ -124,24 +124,58 @@
 }
 .cart-down-side{
     display: flex;
-    justify-content: space-between;
-    height: 60px;
+    flex-direction: column;
+    width: 100%;
     background-color: #47962d;
 }
 .total-price{
     color: #fff;
     font-size: 25px;
     padding: 10px;
+    text-align: center ;
+}
+.total-button{
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-bottom: 20px;
 }
 .total-button button{
-    height: 40px;
-    width: 100px;
+    height: 30px;
+    width: 90px;
     border: none;
     border-radius: 5px;
     color: #fff;
-    font-size: 20px;
-    margin: 10px 10px 5px;
+    font-size: 17px;
+    transition: ease-in-out 200ms;
+}
+.add_btn:active{
+    transform: scale(0.90);
+}
+.btn_buy{
+     background-color:#8eee71;
+}
+.btn_buy:hover{
+    background-color:#CAFDBB;
+    color: #0d1b09;
+}
+.btn_buy:active{
     background-color:#8eee71;
+    color:#fff;
+    transform: scale(0.90);
+}
+.clearCart{
+    background-color: rgb(199, 9, 9);
+}
+.clearCart:hover{
+    background-color: rgb(231, 142, 142);
+    color: rgb(34, 3, 3);
+}
+.clearCart:active{
+    background-color: rgb(199, 9, 9);
+    color: #fff;
+    transform: scale(0.90);
 }
 .jpeg { 
     width: 100px;
@@ -159,6 +193,8 @@
     background-color: #CAFDBB;
     margin-bottom: 10px;
 }
+
+
 
 .product{
     text-align: center;
